@@ -1,11 +1,14 @@
+###############################################	
+#					      #
+#	 Convert From Hexadecimal To Decimal  #
+#					      #
+###############################################
 
-
-##############################################
-#											 #
-#	 Convert From Hexadecimal To Decimal	 #
-#											 #
-##############################################
-
+print('''
+	----------------
+	 Hex to Decimal
+	----------------
+''')
 
 def con(n,b):
 	x = n.upper()	 # If user input small char it will convert into upper char
@@ -23,4 +26,5 @@ def con(n,b):
 
 n = input("Enter The Hexadecimal Value: ")
 b = 16
-con(n,b)
+print("Your Decimal Value Is: ")
+con(n,b) 
